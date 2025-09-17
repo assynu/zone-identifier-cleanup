@@ -1,6 +1,6 @@
-# zone-identifier-cleanup
+# Zone Identifier Cleanup
 
-`zone-identifier-cleanup` is a simple CLI tool written in Go to recursively remove files containing `"Zone.Identifier"` from a specified directory.
+`Zone identifier cleanup` is a simple CLI tool written in Go to recursively remove files containing `"Zone.Identifier"` from a specified directory.
 
 > ⚠️ **Note:** This tool was created to fix a very specific issue: WSL sometimes creates `Zone.Identifier` files when copying files from a Windows directory. It is a personal, one-off solution and may **not adhere to best coding standards**. It will **probably not be maintained**. Use at your own risk.
 
