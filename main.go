@@ -10,7 +10,7 @@ import (
 
 func main() {
 	if len(os.Args) != 2 {
-		log.Fatalf("Usage: zic <directory>")
+		log.Fatalf("Usage: zone-identifier-cleanup <directory>")
 	}
 
 	dir := os.Args[1]
